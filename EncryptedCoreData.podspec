@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'EncryptedCoreData'
-    s.version       = '3.1'
+    s.version       = '3.2.0'
     s.license       = 'Apache-2.0'
   
     s.summary       = 'iOS Core Data encrypted SQLite store using SQLCipher'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.requires_arc  = true
 
     s.ios.deployment_target = '8.0'
-    s.watchos.deployment_target = '3.0'
+    s.watchos.deployment_target = '4.3'
     s.osx.deployment_target = '10.10'
     s.source_files  = 'Incremental Store/**/*.{h,m}'
     s.public_header_files   = 'Incremental Store/EncryptedStore.h'
